@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&family=Tangerine:wght@700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.content-profile{
+  margin-top: 300px;
+}
+
+.profile {
+      background:#C4A07E;
+      padding: 30px;
+      margin-bottom: 10px;
+      margin: 0 150px 60px 150px;
+      border-radius: 10px;
+      font-weight:100;
+      text-align: center;
+      height: 350px;
+
+    }
+
+.profile h3{
+    line-height: 275px;
+       font-size: 30px;
+      color: whitesmoke;
+      font-weight: 600;
+    }
+
+
+@media screen and (max-width:768px){
+
+
+    /*CODES FOR CONTENTS*/
+
+   .profile {
+      padding: 20px;
+      font-size: 18px;
+      margin-bottom: 10px;
+      margin: 0 10px 60px 10px;
+      border-radius: 20px;
+    }
+
+    .content-profile{
+      margin-top: 50px;
+    }
+
+    .profile h3{
+         line-height: 130px;
+       font-size: 20px;
+      color: whitesmoke;
+    }
+
+  }

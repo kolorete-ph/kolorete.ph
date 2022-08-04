@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&family=Tangerine:wght@700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+overflow-x: hidden; 
+
+}
+
+.img-header{
+	margin-bottom: 150px;
+}
+
+.section-container{
+	--bs-gutter-x:1.5rem;
+	--bs-gutter-y:0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) *-1);
+	margin-right: calc(var(--bs-gutter-x) / -2);
+	margin-left:  calc(var(--bs-gutter-x) / -2);
+	margin-bottom: 200px;
+}
+
+.section-container .columns{
+	flex: 0 0 auto;
+	width: 50%;
+}
+
+.section-container .columns.image{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 650px;
+}
+
+
+.section-container .columns.content .content-container{
+	padding: 40px 50px;
+}
+
+.section-container .columns.content .content-container h5{
+	font-weight: 700;
+	font-size: 30px;
+	letter-spacing: 3px;
+}
+
+.section-container .columns.content .content-container p{
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 20px;
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+.section-container .specs h3{
+	font-weight: 400;
+	font-size: 20px;
+
+}
+
+.section-container .specs span{
+	float: right;
+	margin-right: 180px;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 3px;
+
+
+}
+
+
+.section-container .specs .stars{
+
+	font-weight: 400;
+	font-size: 25px;
+	color: gold;
+
+
+}
+
+
+
+
+
+
+
+
+.section-container .section-links{
+
+	font-weight: 600;
+	font-size: 24px;
+	background-color: black;
+	padding: 5px;
+	margin-top: 17px;
+
+}
+
+.section-container .section-links a{
+
+	color: whitesmoke;
+	text-decoration: none;
+
+}
+
+.section-container .section-links a:hover{
+
+	color: grey;
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+	.section-container {
+		flex-flow: row wrap;
+		margin-top: 40px;
+	    margin-bottom: 50px;
+	}
+
+	.section-container .columns.image{
+		display: block;
+		order: 1;
+		width: 100%;
+		height: 450px;
+	}
+
+	.section-container .columns.content {
+		display: block;
+		order: 2;
+		width: 100%;
+
+	}
+
+	.section-container .columns.content .content-container{
+		padding: 20px 35px;
+		
+	}
+
+	.section-container .columns.content .content-container h5{
+		margin-bottom: 5px;
+		
+	}
+
+	.img-header{
+	margin-bottom: 20px;
+	}
+
+	.section-container .specs span{
+	float: right;
+	margin-right: 0px;
+	font-weight: 400;
+	font-size: 16px;
+	letter-spacing: 3px;
+
+
+	}
+
+
+	.section-container .columns.content .content-container h5{
+		text-align: center;
+		font-size: 25px;
+
+	}
+
+	.section-container .section-links{
+
+	margin-top: -50px;
+
+	}
+
+}

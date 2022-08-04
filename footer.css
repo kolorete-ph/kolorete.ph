@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+}
+
+/*===== Colores =====*/
+:root {
+  --first-color:grey;
+  --dark-color: black;
+  --dark-color-alt: #cdcdcd;
+  --white-color: whitesmoke;
+}
+
+/*===== Fuente y tipografia =====*/
+:root {
+  --body-font: 'Poppins', sans-serif;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+}
+
+ /* CODES FOR HTML AND BODY*/
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+}
+
+ /* CODES FOR FOOTER*/
+      a{
+        text-decoration: none;
+        transition: .5s;
+        color: var(--white-color);
+      }
+      ul ,li {
+        list-style-type: none;
+      }
+
+      footer {
+        background-color: #877C82;
+        color: whitesmoke;
+      }
+      .footer_info {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        padding: 50px 0;
+      }
+
+      .footer_info .footer_width {
+         padding: 0 15px;
+
+      }
+
+      .footer_info h2{
+        margin-bottom: 20px;
+      }
+    
+
+      
+
+      .about {
+        width: 40%;
+         margin-right: 150px;
+
+      }
+      .contact {
+        width: 40%;
+        margin-left: 200px;
+      }
+
+      .link {
+        width: 20%;
+      }
+
+      .about h2{
+        font-size: 22px;
+      }
+
+
+      .contact h2{
+        font-size: 22px;
+      }
+
+
+      .link h2{
+        font-size: 22px;
+      }
+
+      
+      .social_media {
+        margin-top: 30px;
+      }
+
+      .social_media ul {
+        display: flex;
+      }
+
+      .social_media ul li a {
+        display: inline-block;
+        margin-right: 50px;
+        width: 50px;
+        height: 50px;
+        padding-top: 10px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 25px;
+        color: whitesmoke;
+      }
+
+      .social_media ul li a:hover {
+        background-color:#877C82;
+        color: var(--white-color);
+      }
+
+      .link ul li a{
+        display: block;
+        margin-bottom: 15px;
+        font-size: 18px;
+        color: whitesmoke;
+      }
+
+      .link ul li a:hover {
+        color: whitesmoke;
+      }
+
+      .contact ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+
+      }
+
+      .contact ul li a {
+        color: whitesmoke;
+      }
+
+      .contact ul li span {
+        margin-right: 15px;
+      }
+
+
+
+      .copy-right {
+        padding: 15px 0;
+        text-align: center;
+        background-color: #C4A07E;
+      }
+
+      @media screen and (max-width: 992px){
+
+        .about  {
+          width: 35%;
+          margin-right: 0px;
+        }
+
+        .contact {
+          width: 35%;
+          margin-left: 0px;
+        }
+
+        .link {
+          width: 30%;
+        }
+
+        .img-header{
+          margin-bottom: 0px;
+         }
+      }
+
+      @media screen and (max-width: 767px) {
+        
+        .about {
+          width: 100%;
+          margin-bottom: 30px;
+          margin-right: 0px;
+        } 
+
+        .link {
+          width: 100%;
+          margin-bottom: 30px;
+        }
+         .contact {
+           width: 100%;
+           margin-bottom: 30px;
+           margin-left: 0px;
+         }
+
+        .footer_info {
+          flex-direction: column;
+        }
+
+          .img-header{
+          margin-bottom: 0px;
+         }
+
+      }

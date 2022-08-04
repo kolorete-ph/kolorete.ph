@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&family=Tangerine:wght@700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.alert {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+
+    /* CODES FOR ANIMATION*/
+     .title{
+  
+      animation: transitionIn 5s;
+    }
+
+
+      @keyframes transitionIn {
+  
+      from {
+    
+        opacity: 0;
+        transform: rotateX(-10deg);
+    
+      }
+  
+      to {
+    
+        opacity: 1;
+        transform: rotateX(0);
+    
+      }
+    }
+
+
+.img-header{
+ margin-top: 100px; 
+ margin-bottom: -250px;
+}
+
+.img-header img{
+width: 40%;
+height: auto;
+}
+
+
+.img-header h1{
+text-align: center;
+font-family: 'Tangerine', sans-serif;
+font-size: 50px;
+font-weight: 800;
+}
+
+.img-header .title h1 {
+  color: #C4A07E;
+}
+
+.img-header .title span {
+  font-family: 'Tangerine', sans-serif;
+  color: #877C82;
+}
+
+.wrapper{
+  margin-top: -175px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+
+}
+
+.carousel .card{
+  text-align: center;
+  margin: 10px 0;
+  margin-top: 50px;
+  line-height: 350px;
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 10px;
+  color:white;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+
+.card-1 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+
+}
+
+.card-2 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+.card-3 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+
+.card-4 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+.card-5 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+
+.card-7 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+
+.card-8 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+
+.card-9 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+
+.card-10 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+.card-11 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+
+.card-12 a{
+   background: rgba(0,0,0,.4);
+   border-radius: 5px;
+}
+
+
+
+
+.carousel .card-1 {
+   background: url("img/crystal-bow-clamps/crystal-bow-clamps-cover.webp");
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 350px;
+   
+  
+}
+.carousel .card-2{
+ background: url("img/big-matte-clamps/big-matte-clamps-black.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+}
+.carousel .card-3{
+ background: url("img/ariel-clamps/ariel-clamps-cover.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+}
+.carousel .card-4{
+ background: url("img/gem-clamps/gem-clamps-cover.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+}
+
+.carousel .card-5{
+ background: url("img/black-chain-clamps/black-chain-clamps-cover.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+}
+.carousel .card-7{
+ background: url("img/koloretes-fashion-pins/koloretes-fashion-pins 1.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+}
+.carousel .card-8{
+ background: url("img/kristal-earrings- crystal/kristal-earrings- crystal-cover.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+
+}
+.carousel .card-9{
+ background: url("img/bituin-earrings-stars/bituin-earrings-stars.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+}
+.carousel .card-10{
+ background: url("img/mariposa-gold-clamp/mariposa-gold-clamp-cover.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+}
+
+.carousel .card-11{
+ background: url("img/malagu-gold-clamp/malagu-gold-clamp-cover.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+}
+
+.carousel .card-12{
+ background: url("img/nana-clamp/nana-clamp-black.webp");
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 350px;
+}
+
+
+.carousel .card-6{
+  background-image: linear-gradient(to right bottom, #ff0099, #493240);
+  width: 100%;
+  height: 350px;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 14px;
+  border: 2px solid #877C82!important;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  transition: all 0.2s ease;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: #C4A07E !important;
+}
+
+
+.how-to-order{
+  background-color: #C4A07E;
+  height: auto;
+  margin-bottom: 200px;
+  justify-content: center;
+
+
+}
+
+.steps-header{
+margin-bottom: 20px;
+}
+.steps-header h2{
+  background-color:#877C82;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+  font-family: 'Tangerine', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: whitesmoke;
+}
+
+.steps-header span{
+  background-color:#877C82;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Tangerine', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #C4A07E;
+}
+
+.steps-content-h3{
+  color:whitesmoke;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.steps-content-h3 h3{
+  letter-spacing: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.steps-content-p{
+  color: whitesmoke;
+  padding: 25px;
+  margin-left: 20px;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+
+.steps-content-p a {
+  color: whitesmoke;
+}
+
+.steps-content-p a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+  .title{
+  font-size: 14px;
+  }
+
+  .carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 50px;
+
+  }
+
+  .steps-header h2{
+
+  font-size: 35px;
+
+}
+
+.steps-header span{
+
+  font-size: 35px;
+
+}
+
+.owl-dots{
+    display: none;
+}
+
+.owl-dot{
+
+box-shadow: none;
+
+}
+
+.carousel .card{
+  width: 100%;
+  height: 300px;
+  line-height: 300px;
+  font-size: 22px;
+}
+
+.how-to-order{
+  margin-top:-100px;
+}
+
+.steps-content-h3 h3{
+  font-size:18px;
+}
+
+.steps-content-p p{
+  font-size:16px;
+}
+  .wrapper{ 
+ margin-top: -200px;
+}
+}
